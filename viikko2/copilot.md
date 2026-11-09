@@ -1,0 +1,3 @@
+Koodin täydennyksen antama ehdotus oli ihan järkeenkäypä. En kuitenkaan käyttäisi sitä koodaamiseen. Mielestäni se häiritsee keskittymistä, ja ehdotuksen läpikäyminen vie energiaa, varsinkin jos siinä on monta riviä koodia. On myös ärsyttävää, kun ehdotus on hieman pielessä ja sitä joutuu manuaalisti korjaamaan.
+
+Selitys pylint-varoituksesta piti paikkansa. Agentin implementaatio ja testit näyttävät toimivalta. Testejä on kyllä ehkä turhan paljon. Viime viikosta eroten agentti päätti tehdä testit src/ -kansion ulkopuolelle. Jouduin myös asentamaan pytestin itse, kun agentti päätti käyttää pythonin unittest-kirjastoa. Pylint ei löytänyt agentin koodista virheitä.

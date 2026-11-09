@@ -39,3 +39,12 @@ class PlayerStats:
         )
 
         return sorted_players
+
+    def top_scorers_by_team(self, team):
+        players = self.reader.get_players()
+        filtered_players = filter(lambda x: x.team == team, players)
+        sorted_players = sorted(
+            filtered_players, key=lambda x: x.goals + x.assists, reverse=True
+        )
+
+        return sorted_players
