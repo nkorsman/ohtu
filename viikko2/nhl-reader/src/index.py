@@ -18,6 +18,8 @@ def main():
 
     print("Players from FIN:")
 
+    players.sort(key=lambda x: x.goals + x.assists, reverse=True)
+
     for player in players:
         if player.nationality == "FIN":
             print(player)
